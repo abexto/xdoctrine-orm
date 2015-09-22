@@ -1,6 +1,8 @@
 {
   "name": "abexto/xdoctrine-orm",
-  "description": "Misc. extensions for Doctrine ORM",
+  "description": "Extensions for Doctrine ORM",
+  "keywords": ["doctrine", "database", "orm"],
+  "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Andreas Prucha, Abexto - Helicon Software Development",
