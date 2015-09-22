@@ -1,0 +1,28 @@
+{
+  "name": "abexto/xdoctrine-orm",
+  "description": "Misc. extensions for Doctrine ORM",
+  "authors": [
+    {
+      "name": "Andreas Prucha, Abexto - Helicon Software Development",
+      "email": "prucha@helicon.co.at"
+    }
+  ],
+  "require": {
+    "doctrine/orm": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "abexto\\xdc\\orm\\": "lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "abexto\\tests\\xdc\\orm\\": "tests/"
+    }
+  }
+  
+}
+

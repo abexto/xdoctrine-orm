@@ -1,0 +1,32 @@
+<#-- Standard license template for xdoctrine project files -->
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Copyright (c) ${date?date?string("yyyy")}, Andreas Prucha, Abexto - Helicon Software Development
+${licensePrefix}All rights reserved.
+${licensePrefix}
+${licensePrefix}Redistribution and use in source and binary forms, with or without modification, 
+${licensePrefix}are permitted provided that the following conditions are met:
+${licensePrefix}
+${licensePrefix}*  Redistributions of source code must retain the above copyright notice, this 
+${licensePrefix}   list of conditions and the following disclaimer.
+${licensePrefix}*  Redistributions in binary form must reproduce the above copyright notice, 
+${licensePrefix}   this list of conditions and the following disclaimer in the documentation 
+${licensePrefix}   and/or other materials provided with the distribution.
+${licensePrefix}*  Neither the name of Abexto, Helicon Software Development, Andreas Prucha
+${licensePrefix}   nor the names of its contributors may be used to endorse or promote products
+${licensePrefix}   derived from this software without specific prior written permission.
+${licensePrefix}
+${licensePrefix}THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
+${licensePrefix}ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+${licensePrefix}WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+${licensePrefix}IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+${licensePrefix}INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, 
+${licensePrefix}BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, 
+${licensePrefix}DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
+${licensePrefix}LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE 
+${licensePrefix}OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+${licensePrefix}OF THE POSSIBILITY OF SUCH DAMAGE.
+<#if licenseLast??>
+${licenseLast}
+</#if>
